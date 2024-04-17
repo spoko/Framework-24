@@ -36,7 +36,7 @@ public class AddItemsToTheCart extends TestUtil {
         WebElement item2 = driver.findElement(By.id(BASE_PRODUCT_ID + "backpack"));
         item2.click();
 
-        softAssert.assertEquals(shoppingCartBadge.getText(), "2", "Because we added two elements so far");
+        softAssert.assertEquals(shoppingCartBadge.getText(), "26", "Because we added two elements so far");
 
         softAssert.assertAll();
     }

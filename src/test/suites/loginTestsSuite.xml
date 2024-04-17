@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Tests" thread-count="2" parallel="tests">
+    <test name="Login with problem user">
+        <classes>
+            <class name="loginTests.LoginWithProblemUser"></class>
+        </classes>
+    </test>
+    <test name="Successful Login">
+        <classes>
+            <class name="loginTests.SuccessfulLogin"></class>
+        </classes>
+    </test>
+</suite>
