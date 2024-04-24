@@ -26,4 +26,9 @@ public class SuccessfulLogin extends TestUtil {
         WebElement productsPageTitle = driver.findElement(By.className("title"));
         Assert.assertTrue(productsPageTitle.isDisplayed());
     }
+
+    @Test
+    public void fakeTest(){
+        Assert.assertTrue(true);
+    }
 }
