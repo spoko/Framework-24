@@ -27,8 +27,8 @@ public class SuccessfulLogin extends TestUtil {
         Assert.assertTrue(productsPageTitle.isDisplayed());
     }
 
-//    @Test
-//    public void fakeTest(){
-//        Assert.assertTrue(false);
-//    }
+    @Test
+    public void fakeTest(){
+        Assert.assertTrue(false);
+    }
 }
